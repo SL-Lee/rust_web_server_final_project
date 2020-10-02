@@ -1,7 +1,5 @@
 use std::fmt;
-use std::sync::mpsc;
-use std::sync::Arc;
-use std::sync::Mutex;
+use std::sync::{mpsc, Arc, Mutex};
 use std::thread;
 
 pub struct ThreadPool {
